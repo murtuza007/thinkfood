@@ -11,6 +11,7 @@ module.exports = {
 			//Validation code 11000
 			'11001': 'Please provide a valid username and password',
 			'11002': 'Please provide a valid username',
+			'11003': 'Please provide a valid user id',
 			
 
 
@@ -20,7 +21,8 @@ module.exports = {
 
 			//Success code 13000
 			'13001': 'User login succes',
-			'13002': 'Username not present'
+			'13002': 'Username not present',
+			'13003': 'User registered successfuly'
 
 		};
 		return code[statusCode];
